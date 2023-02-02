@@ -1,6 +1,7 @@
 body {
   background-image: url(1.jpg);
   font-family: Verdana, Tahoma, sans-serif;
+  color: rgb(112, 110, 110);
 }
 
 .container {
@@ -44,7 +45,7 @@ margin: auto;
     cursor: pointer;
   }
   
-  input {
+.title {
     display: inline-block;
     width: 25%;
     border: 1px solid rgba(151, 158, 162, 0.3);
@@ -87,4 +88,13 @@ margin: auto;
   margin-left: 15px;
   margin-bottom: 45px;
   color: rgb(112, 110, 110);
+  font-size: 25px;
+}
+
+.textChecked {
+font-size: 25px;
+}
+
+.textChecked {
+  margin-left: 0 auto;
 }
